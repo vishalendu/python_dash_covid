@@ -75,7 +75,7 @@ app.layout = dbc.Container([
                                         multi=False,
                                         clearable=False
                                        )
-                       ]),
+                       ],xs=12, sm=12, md=12, lg=6, xl=6),
                        dbc.Col([
                            dcc.Dropdown(id="dpdwn2",
                                         options=[
@@ -86,15 +86,15 @@ app.layout = dbc.Container([
                                         multi=False,
                                         clearable=False
                                        )
-                       ])
+                       ],xs=12, sm=12, md=12, lg=6, xl=6)
                    ]),
                  dbc.Row([
                      dbc.Col([
                          dcc.Graph(id="lineplot")
-                     ]),
+                     ],xs=12, sm=12, md=12, lg=6, xl=6),
                      dbc.Col([
                          dcc.Graph(id="piechart")
-                     ])
+                     ],xs=12, sm=12, md=12, lg=6, xl=6)
                  ])
 ], fluid=True)
 
