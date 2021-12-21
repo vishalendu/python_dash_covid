@@ -5,7 +5,7 @@ The aim of this project is to demonstrate how a dataset can be viewed and graphe
 This is a complete application written in Python and doesnt require extensive knowledge of javascript and css.
 
 
-Thanks to the creator of video mentioned in the References below, I have used his code and done minor changes to make it easier to code (specially for people who dont want to understand HTML/Divs.
+Thanks to the creator of video mentioned in the References below, I have used his code and done minor changes to make it easier to understand (specially for people who dont want to understand HTML/Divs.)
 
 The main structure of the HTML page for the app follows the following design
 ```
