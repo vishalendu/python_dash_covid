@@ -30,7 +30,7 @@ Here you can see that the application layout is defined as simple to understand 
                             
                   
 the second part of the code deals with attaching the data to the Graphs. The callbacks
-
+```
 @app.callback(
     [Output('lineplot', 'figure'),
      Output('piechart', 'figure')],
@@ -40,12 +40,15 @@ the second part of the code deals with attaching the data to the Graphs. The cal
     ]
 )
 def func(3 inputs and 2 outputs)
+```
 
+<P>
 The above callback decorator is used on a function which has to take as many inputs and provide as many outputs as mentioned in the decorator. 
 This is pretty straight forward, as you can see the Input/Output element in the decorator have a touple of "compoment id" and component output for the ones to be used for input and output.
-
+</P>
                   
-
+<P>
 References:
 https://dash.plotly.com/datatable/reference
 https://www.youtube.com/watch?v=dgV3GGFMcTc
+</P>
