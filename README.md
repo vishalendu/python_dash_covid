@@ -8,7 +8,7 @@ This is a complete application written in Python and doesnt require extensive kn
 Thanks to the creator of video mentioned in the References below, I have used his code and done minor changes to make it easier to code (specially for people who dont want to understand HTML/Divs.
 
 The main structure of the HTML page for the app follows the following design
-
+```
 dbc.Container([
                   dbc.Row([
                             dbc.Col(html.H1)
@@ -25,7 +25,7 @@ dbc.Container([
                             dbc.Col([dcc.Graph()])
                           ])
              ])
-
+```
 Here you can see that the application layout is defined as simple to understand "Row" and "Col" objects. The actual objects like "DropDown". "DataTable" are very well documented on Plotly's documentation website, so it would be very trivial to replace them with whatever you need.
                             
                   
