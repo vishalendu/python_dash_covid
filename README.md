@@ -49,6 +49,8 @@ This is pretty straight forward, as you can see the Input/Output element in the 
                   
 <P>
 References:
+<br>
 https://dash.plotly.com/datatable/reference
+<br>
 https://www.youtube.com/watch?v=dgV3GGFMcTc
 </P>
